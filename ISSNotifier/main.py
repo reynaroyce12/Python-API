@@ -6,9 +6,9 @@ import requests
 MY_LAT = 10.786730
 MY_LONG = 76.654793
 
-my_email = 'gilfoylethegoldfoil@gmail.com'
-to_address = 'reynaroyce.12@gmail.com'
-password = 'testermail12!'
+my_email = '****************@gmail.com'
+to_address = '**************@gmail.com'
+password = '****************'
 
 
 # ------------------------------- ISS POSITION API -------------------------
