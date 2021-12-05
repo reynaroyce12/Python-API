@@ -1,22 +1,23 @@
 import requests
 from datetime import *
 
-USER_NAME = 'gilfoyle'
-TOKEN = 'd74w8f755rf5f5*'
+USER_NAME = **********
+TOKEN = **********
+GRAPH_ID = *******
 
 pixela_endpoint = 'https://pixe.la/v1/users'
 graph_endpoint = f"{pixela_endpoint}/{USER_NAME}/graphs"
-pixel_endpoint = f"{graph_endpoint}/graph2"
+pixel_endpoint = f"{graph_endpoint}/{GRAPH_ID}"
 
 params = {
-    "token": "d74w8f755rf5f5*",
-    "username": "gilfoyle",
+    "token": TOKEN,
+    "username": USER_NAME,
     "agreeTermsOfService": "yes",
     "notMinor": "yes",
 }
 
 graph_params = {
-    "id": "graph2",
+    "id": GRAPH_ID,
     "name": "Hours of code",
     "unit": "hours",
     "type": "float",
